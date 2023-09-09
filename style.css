@@ -1,0 +1,35 @@
+/* Colors for the main page */
+:root{
+    --major1:#27005D;
+    --major2:#9400FF;
+    --major3:#AED2FF;
+    --major4:#E4F1FF;
+}
+
+html, body{
+    background-color: var(--major1);
+    color: var(--major4);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    background-color: var(--major2);
+    width: 40vw;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 25px;
+    flex: 1 1 1;
+    min-width: 400px;
+}
+h5,a{
+    color: var(--major3);
+}
+p{
+    color: var(--major4);
+}
