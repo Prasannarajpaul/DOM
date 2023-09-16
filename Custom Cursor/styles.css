@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+#main{
+    width: 60%;
+}
+.container{
+    background-color: aqua;
+    height: 24vh;
+    width: 100%;
+    border: 2px solid black;
+    margin: 0;
+    margin-bottom: 1px;
+}
+.background1{
+    background-image: url(https://images.pexels.com/photos/11961892/pexels-photo-11961892.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.background1:hover{
+    cursor: url(./Resources/X-max_tree.png), pointer;
+}
+.background2{
+    background-image: url(https://images.pexels.com/photos/259915/pexels-photo-259915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.background2:hover{
+    cursor: url(./Resources/lady-bug.png), pointer;
+}
+.background3{
+    background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.background3:hover{
+    cursor: url(./Resources/angry-cursor.png), pointer;
+}
+.background4{
+    background-image: url(https://images.pexels.com/photos/4737484/pexels-photo-4737484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.background4:hover{
+    cursor: url(./Resources/ufo-cursor.png), pointer;
+}
+.background-prop{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
