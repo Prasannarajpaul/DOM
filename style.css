@@ -14,21 +14,27 @@ html, body{
 #container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
 }
 
 #card{
     background-color: var(--major2);
-    width: 40vw;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
     font-size: 25px;
-    flex: 1 1 1;
-    min-width: 400px;
+    height: auto;
+    width: 500px;
+    min-width: 250px;
+    flex-direction: column;
 }
 h5,a{
     color: var(--major3);
+    text-align: center;
+}
+h1{
+    text-align: center;
 }
 p{
     color: var(--major4);

@@ -1,0 +1,21 @@
+.container{
+    background-color: black;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.dice{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 200px;
+    position: relative;
+    text-align: center;
+}
+body{
+    background-color:lightblue;
+}
