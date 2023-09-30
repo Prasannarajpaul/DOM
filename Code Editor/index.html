@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+
+        <label>
+            <i class="fa-brands fa-html5" style="color: #ff0000;"></i>
+            HTML</label>
+        <textarea id="htmlCode" onkeyup="run()"></textarea>
+
+        <label>
+            <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+            CSS</label>
+        <textarea id="cssCode" onkeyup="run()"></textarea>
+
+        <label>
+            <i class="fa-brands fa-square-js" style="color: #fff700;"></i>
+            JavaScript</label>
+        <textarea id="jsCode" onkeyup="run()"></textarea>
+
+        </div>
+        <div class="right">
+            <label>
+                Output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
