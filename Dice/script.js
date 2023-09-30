@@ -2,7 +2,7 @@ var num = Math.floor(Math.random()*6)+1;
 document.querySelector(".dice1").innerHTML = num;
 
 // Create a new Gyro object
-var gyro = new Gyro();
+var gyro = new Gyroscope();
 
 // Start listening for gyro events
 gyro.addEventListener("change", function(e) {
